@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap&subset=latin-ext');
+
+/*General*/
+*{font-family: 'Ubuntu', sans-serif}
+
+/*Navbar*/
+.navcolor
+{
+    background-color: #FF6800 !important;
+}
+.patreon
+{
+width: 140px;
+height: 35px;
+border-radius: 25px !important;
+}
+.patron
+{
+    border-color: black !important;
+    border-width: 2px !important;
+}
+.btn-catto
+{
+    text-decoration: none !important;
+    background-color: transparent;
+    border-color: black !important;
+    border-radius: 15px !important;
+    border-width: 2px;
+    color: black !important;
+    font-weight: bold !important;
+}
+.text
+{
+    color: black !important;
+    font-weight: bold !important;
+}
+    
+/*Section 1*/
+.section1
+{
+    padding-top: 90px;
+    padding-bottom: 120px;
+    line-height : 55px;
+background-image: url("../images/background3.jpg");
+    background-size: cover !important;
+}
+.padding
+{
+    padding-left: 50px;
+}
+.animate
+{
+    font-size: 40px;
+}
+.name
+{
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 1px !important;
+}
+.star
+{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #FF6800;
+    color: white;
+    background-color: #FF6800;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.star:hover
+{
+    color: #FF6800;
+    background-color: white;
+    text-decoration: none;
+    border-color: #FF6800;
+}
+
+.download
+{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #FF6800;
+    color: #FF6800;
+    font-weight: bold;
+    transition: .5s;
+}
+.download:hover
+{
+    background-color: #FF6800;
+    color: white;
+    text-decoration: none;
+    border-color: #FF6800;
+}
+
+/*Section 2*/
+.section2
+{
+    padding-top: 20px;
+    text-align: center;
+}
+.compatible
+{
+    font-size: 50px;
+}
+.padd
+{
+    padding-top: 80px;
+}
+.up
+{
+    animation-name: logos1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.do
+{
+    animation-name: logos2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.compat
+{
+    color: #FF6800;
+}
+
+.section3{padding-top: 20px;}
+.padd3
+{padding-left: 50px;}
+
+.simple
+{
+    font-size: 50px;
+}
+.simple-bold{color: #FF6800;}
+
+.code
+{
+border-radius: 15px;
+}
+.examples
+{
+    background-color: black;
+    color: #FF6800 !important;
+    border-radius: 12px;
+}
+.texto{color: #FF6800;}
+
+/*Section 3*/
+.section3
+{
+    padding-top: 120px;
+}
+.howToUse
+{
+    font-size: 40px;
+    color: #FF6800;
+    font-weight: bold;
+}
+.space{padding-left: 80px !important;}
+
+/*Section 4*/
+.section4
+{
+    padding-top: 120px;
+}
+
+/*Section 5*/
+.section5
+{
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+.patron2
+{
+color: white !important;
+background-color: #FF6800;
+border-color: #FF6800;
+border-radius: 15px;
+font-weight: bold !important;
+}
+
+/*Footer*/
+.footer
+{
+color: white;
+background-color: black;
+padding-bottom: 20px !important;
+}
+.href
+{
+    color: #FF6800 !important;
+    transition: .5s;
+}
+.href:hover
+{
+    text-decoration: none;
+    color: #00c3ff !important;
+}
+
+.enlace{color: transparent !important;}
+
+
+/*animations*/
+@keyframes logos1
+{
+    0%{padding-top: 0px;}
+    50%{padding-top: 80px;}
+    100%{padding-top: 0px;}
+}
+
+@keyframes logos2
+{
+    0%{padding-top: 80px;}
+    50%{padding-top: 0px;}
+    100%{padding-top: 80px;}
+}
+
+/*media queries*/
+@media(max-width: 450px)
+{
+    body{overflow: hidden;}
+    .padding{
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .name{font-size: 50px;}
+    .padd3{padding-left: 15px;}
+    .space{padding-left: 30px !important;}
+    .section3{text-align: center !important;}
+    .buttonss{font-size: 15px;}
+    .section4{padding-left: 12px;padding-right: 10px;}
+    .section5{text-align: center; padding-left: 10px;}
+}
+
+@media(min-width: 1010px)
+{
+    body{overflow: hidden;}
+    .name{font-size: 72px;}
+}
+
+@media(min-width: 1430px)
+{
+    .name{font-size: 75px;}
+}
