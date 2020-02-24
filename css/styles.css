@@ -1608,7 +1608,7 @@ a.back-to-top {
 	position: fixed;
 	z-index: 999;
 	right: 0.75rem;
-	bottom: 4.75rem;
+	bottom: 10.75rem;
 	display: none;
 	width: 2rem;
 	height: 2rem;
